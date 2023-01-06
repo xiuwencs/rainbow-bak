@@ -948,7 +948,9 @@ static BROTLI_BOOL DecompressFiles(Context* context) {
         //结束时间
         long end = tv.tv_sec * 1000 + tv.tv_usec / 1000;
         spend += end - start;
-        // printf("file name = %s\n",file_name);
+	//printf("%s\n",context->current_output_path);
+	//strcpy(file_name,context->current_output_path);
+	//strcat(file_name,".out");
         //FILE *file = fopen(file_name,"wa+");
         //if(file == NULL) printf("can not open file\n");
         /*for(int i = 0;i<global_index;i+=3){

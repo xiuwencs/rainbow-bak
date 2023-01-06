@@ -4,7 +4,7 @@
 #include <fstream>
 #include <sstream>
 #include "dictionary.h"
-
+//using namespace std;
 unsigned long g_scan = 0;
 unsigned int g_match = 0;
 int literal_num = 0;

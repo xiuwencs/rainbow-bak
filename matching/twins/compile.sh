@@ -12,7 +12,6 @@ cd build && cmake ..
 
 # for checking the matched patterns 
 # cd build && cmake -DACTION ..
-
 make
 
 echo "Executables are generated!"

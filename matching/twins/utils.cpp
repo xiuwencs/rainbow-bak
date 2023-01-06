@@ -34,7 +34,7 @@ short naive_for_dynamic(TokenInfo *token, int length, short *state_array, FSM *f
 	return state;
 }
 
-void GetDictionaryState(short *DictionaryState, DFA *dfa)
+/*void GetDictionaryState(short *DictionaryState, DFA *dfa)
 {
 	const unsigned char *byte = kBrotliDictionaryData;
 	state_t start_state = 0;
@@ -46,7 +46,7 @@ void GetDictionaryState(short *DictionaryState, DFA *dfa)
 		byte++;
 		DictionaryState++;
 	}
-}
+}*/
 void Performance()
 {
 	printf("time:%d ms, matched:%d, scan:%d, total:%d, skip-ratio: %.2f%, throughput %.2f mbps,literal-num:%d, pointer-ratio:%.2f\n",

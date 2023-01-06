@@ -7,6 +7,8 @@
 #include <dirent.h>
 #include <cstring>
 #define DICTIONARY_BYTES 122784
+using namespace std;
+typedef unsigned short state_t;
 typedef struct
 {
     unsigned char token;
@@ -33,10 +35,10 @@ inline int ScanByte(short state, unsigned char token, FSM *fsm){
 };
 
 int LoadText(char* dir, vector<m_buffer>& buff);
-int BR_ScanDist(short state, short* idxArray, TokenInfo * txtArray, int dist, int tlen, DFA* dfa);
-int BR_ScanDict(short state, short* idxArray, TokenInfo* txtArray, int offset, int tlen, short* dictionary_state, DFA* dfa);
-void BrotliCompressMatching(TokenInfo** text, DFA* dfa, int ProcessFileSize[], short* DictionaryState,int count);
-void GetDictionaryState(short* DictionaryState, DFA* dfa);
+//int BR_ScanDist(short state, short* idxArray, TokenInfo * txtArray, int dist, int tlen, DFA* dfa);
+//int BR_ScanDict(short state, short* idxArray, TokenInfo* txtArray, int offset, int tlen, short* dictionary_state, DFA* dfa);
+//void BrotliCompressMatching(TokenInfo** text, DFA* dfa, int ProcessFileSize[], short* DictionaryState,int count);
+//void GetDictionaryState(short* DictionaryState, DFA* dfa);
 int Init(vector<m_buffer>& buff, TokenInfo ** Txt, int* sizeArray);
 void Performance();
 
