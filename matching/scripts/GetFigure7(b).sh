@@ -2,41 +2,41 @@
 echo "=================snort24===================="
 echo "Raibow"
 echo "============================================"
-../rainbow/build/rainbow  ../../dataset/Brotli/Alexa/decompress/ ../../dataset/Brotli/Alexa/meta/ ../../table/snort24.txt ../../table/snort24-accept.txt 2
+../rainbow/build/rainbow  ../../datasets/Brotli/Alexa/decompress/ ../../datasets/Brotli/Alexa/meta/ ../../tables/snort24.txt ../../tables/snort24-accept.txt 1
 echo "Twins"
 echo "============================================"
-../twins/build/twins  ../../dataset/Gzip/Alexa/meta ../../table/snort24.txt ../../table/snort24-accept.txt 2
+../twins/build/twins  ../../datasets/Gzip/Alexa/meta ../../tables/snort24.txt ../../tables/snort24-accept.txt 1
 echo "Naive"
 echo "============================================"
-../naive/build/naive  ../../dataset/Brotli/Alexa/decompress/ ../../table/snort24.txt ../../table/snort24-accept.txt 2
+../naive/build/naive  ../../datasets/Brotli/Alexa/decompress/ ../../tables/snort24.txt ../../tables/snort24-accept.txt 1
 
 
 echo "=================snort31===================="
 
 echo "Raibow"
 echo "============================================"
-../rainbow/build/rainbow  ../../dataset/Brotli/Alexa/decompress/ ../../dataset/Brotli/Alexa/meta/ ../../table/snort31.txt ../../table/snort31-accept.txt 2
+../rainbow/build/rainbow  ../../datasets/Brotli/Alexa/decompress/ ../../datasets/Brotli/Alexa/meta/ ../../tables/snort31.txt ../../tables/snort31-accept.txt 1
 echo "============================================"
 echo "Twins"
 echo "============================================"
-../twins/build/twins  ../../dataset/Gzip/Alexa/meta ../../table/snort31.txt ../../table/snort31-accept.txt 2
+../twins/build/twins  ../../datasets/Gzip/Alexa/meta ../../tables/snort31.txt ../../tables/snort31-accept.txt 1
 echo "============================================"
 echo "Naive"
 echo "============================================"
-../naive/build/naive  ../../dataset/Brotli/Alexa/decompress/ ../../table/snort31.txt ../../table/snort31-accept.txt 2
+../naive/build/naive  ../../datasets/Brotli/Alexa/decompress/ ../../tables/snort31.txt ../../tables/snort31-accept.txt 1
 
 
 echo "=================snort34===================="
 
 echo "Raibow"
 echo "============================================"
-../rainbow/build/rainbow  ../../dataset/Brotli/Alexa/decompress/ ../../dataset/Brotli/Alexa/meta/ ../../table/snort34.txt ../../table/snort34-accept.txt 2
+../rainbow/build/rainbow  ../../datasets/Brotli/Alexa/decompress/ ../../datasets/Brotli/Alexa/meta/ ../../tables/snort34.txt ../../tables/snort34-accept.txt 1
 echo "============================================"
 echo "============================================"
 echo "Twins"
 echo "============================================"
-../twins/build/twins  ../../dataset/Gzip/Alexa/meta ../../table/snort34.txt ../../table/snort34-accept.txt 2
+../twins/build/twins  ../../datasets/Gzip/Alexa/meta ../../tables/snort34.txt ../../tables/snort34-accept.txt 1
 echo "============================================"
 echo "Naive"
 echo "============================================"
-../naive/build/naive  ../../dataset/Brotli/Alexa/decompress/ ../../table/snort34.txt ../../table/snort34-accept.txt 2
+../naive/build/naive  ../../datasets/Brotli/Alexa/decompress/ ../../tables/snort34.txt ../../tables/snort34-accept.txt 1

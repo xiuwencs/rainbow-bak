@@ -1,11 +1,11 @@
 #!/bin/bash
-cp ../rainbow/build/rainbow ../../dataset/Brotli/Google/compress
-cp ../naive/build/naive ../../dataset/Brotli/Google/compress
-cp ../twins/build/twins ../../dataset/Gzip/Google/
+cp ../rainbow/build/rainbow ../../datasets/Brotli/Google/compress
+cp ../naive/build/naive ../../datasets/Brotli/Google/compress
+cp ../twins/build/twins ../../datasets/Gzip/Google/
 
 echo "========================================="
 
-cd ../../dataset/Brotli/Google/compress
+cd ../../datasets/Brotli/Google/compress
 
 
 
@@ -23,7 +23,7 @@ echo "Twins"
 
 cd ../../../Gzip/Google/
 
-./twins ../../../dataset/Gzip/Google/compress
+./twins ../../../datasets/Gzip/Google/compress
 
 echo "complete!"
 

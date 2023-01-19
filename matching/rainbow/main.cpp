@@ -149,7 +149,8 @@ int main(int argc, char **argv)
     printf("state = %d\n", state);
     printf("scan = %d\n", g_scan);
     printf("match = %d\n", g_match);
-    printf("skip ratio = %.2f\n", 100 * (1.0 - (g_scan * 1.0 / total)));
+    //printf("scan ratio = %.2f\n", 100 * (g_scan * 1.0 / total));
+    printf("skip ratio = %.2f\n", 100.0 - 100 * (g_scan * 1.0 / total));
     printf("pointer ratio = %.2f\n", 100 * (1.0 - (literal_num * 1.0 / total)));
     printf("compress ratio = %.2f\n", 100 * (compress * 1.0) / total);
     printf("average pointer len = %.2f\n", (pointer_len * 1.0) / pointer_count);
