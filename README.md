@@ -7,6 +7,8 @@ The source codes can be used to reproduce the key experimental results reported 
 We put datasets and regular expression sets in this directory. 
 Each dataset includes three forms: compressed, fully decompressed, and decoded.
 The decompressed and decoded are converted from the compressed data.
+Due to the limitation of uploading large files, we only release the Alexa dataset on Github.
+You can find all the datasets on Zendo (https://doi.org/10.5281/zenodo.7551962).
 
 #### (2) tables
     
