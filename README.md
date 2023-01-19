@@ -10,7 +10,7 @@ The decompressed and decoded are converted from the compressed data.
 Due to the limitation of uploading large files, we only release the Alexa dataset on Github.
 You can find all the datasets on Zenodo (https://doi.org/10.5281/zenodo.7551962).
 
-#### (2) tables
+### (2) tables
     
 We use a regular expression matching engine (http://regex.wustl.edu) to export DFA tables and convert the tables into state transition table form. The matching programs read these transition tables to construct the regular expression matching engine.
 
